@@ -1,5 +1,5 @@
 var groupMethods = function(hook, methods) {
-    for (let method in methods) {
+    for (var method in methods) {
         if (methods.hasOwnProperty(method)) {
             var oldFunc = methods[method];
 
