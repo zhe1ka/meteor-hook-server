@@ -23,11 +23,11 @@ var checkAuthUser = function() {
     return this.userId;
 };
 
-var AuthMethods = function(methods) {
+var authMethods = function(methods) {
     groupMethods(checkAuthUser, methods);
 };
 
 module.exports = {
     groupMethods: groupMethods,
-    checkAuthUser: checkAuthUser
+    authMethods: authMethods
 };
