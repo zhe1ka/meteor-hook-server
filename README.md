@@ -6,7 +6,7 @@ For example, we can combine methods which are executing when user is logged.
 # Installation
 
 ```
-$ meteor npm install --save meteor-native-mongo
+$ meteor npm install --save meteor-hook-server
 ```
 
 # Usage
