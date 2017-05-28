@@ -1,0 +1,26 @@
+{
+  "name": "meteor-hook-server",
+  "version": "0.0.1",
+  "description": "You can combine some meteor methods in a group/groups to execute some hook before action each of them.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhe1ka/meteor-hook-server.git"
+  },
+  "keywords": [
+    "meteor",
+    "hook",
+    "server",
+    "methods",
+    "meteor methods"
+  ],
+  "author": "Zheka Dzecina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhe1ka/meteor-hook-server/issues"
+  },
+  "homepage": "https://github.com/zhe1ka/meteor-hook-server#readme"
+}
