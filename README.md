@@ -57,3 +57,6 @@ authMethods({
 	}
 });
 ```
+
+# Next:
+- supporting publications
