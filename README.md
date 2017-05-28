@@ -12,7 +12,7 @@ $ meteor npm install --save meteor-native-mongo
 # Usage
 
 ```
-import { groupMethods as youOwnName } from 'meteor-hook-server';
+import { groupMethods as yourOwnName } from 'meteor-hook-server';
 
 const hook = function() {
     return this.userId;
@@ -30,7 +30,7 @@ youOwnName(hook, {
 If you need to pass some data from a hook to "method", you can get it from the last param in your method.
 
 ```
-import { groupMethods as youOwnName } from 'meteor-hook-server';
+import { groupMethods as yourOwnName } from 'meteor-hook-server';
 
 const hook = function() {
     return this.userId;
