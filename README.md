@@ -48,7 +48,7 @@ youOwnName(hook, {
 });
 ```
 
-Be attentive: if you want to keep the context in "hook" you need to use function() {}
+Be attentive: if you want to keep the context (like in a server meteor method) in "hook" you need to use function() {}
 instead of an arrow function ( () => {} ).
 
 # Default group:
