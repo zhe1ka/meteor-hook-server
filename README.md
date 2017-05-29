@@ -24,6 +24,10 @@ youOwnName(hook, {
 	}
 });
 ```
+testMethods method was executed when your hook returns a result equally "true" (if (your result) { // method is executed }).
+In another way your method will be prevented.
+In our example when user is logged - 'this.userId' returns a user id (it's true) and when the user isn't logged - it's
+null - false.
 
 # Data from a hook to a method.
 
