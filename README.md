@@ -19,7 +19,8 @@ const hook = function() {
 };
 
 youOwnName(hook, {
-	testMethods() {
+	testMethod() {
+		// call this method on client by Meteor.call('testMethod')
 		// do here what you need
 	}
 });
